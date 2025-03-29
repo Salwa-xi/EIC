@@ -126,7 +126,7 @@
       <div class="card"><img src="منشور Instagram تهنئة بمناسبة العيد (4).png" alt="قالب 3" onclick="selectCard(this)"></div>
       <div class="card"><img src="منشور Instagram تهنئة بمناسبة العيد (5).png" alt="قالب 3" onclick="selectCard(this)"></div>
       <div class="card"><img src="منشور Instagram تهنئة بمناسبة العيد (6).png" alt="قالب 3" onclick="selectCard(this)"></div>
-      <div class="card"><img src="منشور Instagram تهنئة بمناسبة العيد (7).png" alt="قالب 3" onclick="selectCard(this)"></div>
+      <div class="card"><img src="منشور Instagram تهنئة بمناسبة العيد (8).png" alt="قالب 3" onclick="selectCard(this)"></div>
     </div>
 
     <div class="input-area">
@@ -135,7 +135,7 @@
       <button onclick="generateCard()">تجهيز البطاقة</button>
     </div>
 
-    <canvas id="cardCanvas" width="600" height="400"></canvas>
+    <canvas id="cardCanvas" width="600" height="800"></canvas>
     <br>
     <button id="downloadBtn" onclick="downloadCard()">تحميل البطاقة</button>
   </div>
@@ -167,7 +167,7 @@
         ctx.textAlign = 'center';
         ctx.shadowColor = '#319a84';
         ctx.shadowBlur = 6;
-        ctx.fillText(name, canvas.width / 2, canvas.height - 100);
+        ctx.fillText(name, canvas.width / 2, canvas.height - 170);
         canvas.style.display = 'block';
         document.getElementById('downloadBtn').style.display = 'inline-block';
       }
